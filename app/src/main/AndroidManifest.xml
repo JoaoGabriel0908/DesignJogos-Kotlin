@@ -10,10 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DesignJogos">
         <activity
+            android:name=".Details_games"
+            android:exported="false" />
+        <activity
+            android:name=".activity_games"
+            android:exported="false" />
+        <activity
             android:name=".PrincipalActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:theme="@style/Theme.Design.NoActionBar"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
