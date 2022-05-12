@@ -8,7 +8,8 @@ O ConstraintLayout é uma forma de criar/desenhar layouts complexos sem a necess
 
 ## Figma
 O design foi construído pelo professor Leonid para a realização da atividade
-![imagemFigma](https://www.figma.com/file/Kd3NCtpvK2jcYT5clnrNTx/INDMO---GAMES-(Aula)?node-id=0%3A1)
+![imagemFigma](https://user-images.githubusercontent.com/88786336/168149301-32e775ee-5525-4d64-8aeb-c469ede5f357.PNG)
+Disponível: https://www.figma.com/file/Kd3NCtpvK2jcYT5clnrNTx/INDMO---GAMES-(Aula)?node-id=0%3A1
 
 ## Tecnologias
 * Android Studio
@@ -16,10 +17,11 @@ O design foi construído pelo professor Leonid para a realização da atividade
 ## Projeto 
 
 
-![splash](https://user-images.githubusercontent.com/88786336/168148679-aa7fb3d3-8ef2-48e5-9ff7-5449fb93af13.png)
+![splash](https://user-images.githubusercontent.com/88786336/168148679-aa7fb3d3-8ef2-48e5-9ff7-5449fb93af13.png) ![principal](https://user-images.githubusercontent.com/88786336/168148856-2946751e-a66a-447a-94af-54a8534cb43c.PNG) ![pesquisar](https://user-images.githubusercontent.com/88786336/168148994-f878e13b-7f8b-4c2b-9ebe-fd9e2b5fd310.PNG) ![detalhe](https://user-images.githubusercontent.com/88786336/168149024-c3f237f2-4273-48ac-a40a-05ee6a63fd69.PNG)
 
-![principal](https://user-images.githubusercontent.com/88786336/168148856-2946751e-a66a-447a-94af-54a8534cb43c.PNG)
 
-![pesquisar](https://user-images.githubusercontent.com/88786336/168148994-f878e13b-7f8b-4c2b-9ebe-fd9e2b5fd310.PNG)
 
-![detalhe](https://user-images.githubusercontent.com/88786336/168149024-c3f237f2-4273-48ac-a40a-05ee6a63fd69.PNG)
+
+
+
+
