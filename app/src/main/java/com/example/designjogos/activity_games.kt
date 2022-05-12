@@ -16,5 +16,10 @@ class activity_games : AppCompatActivity() {
             var intent = Intent (this, Details_games::class.java)
             startActivity(intent)
         }
+        var perfil = findViewById<ImageView>(R.id.perfil)
+        perfil.setOnClickListener {
+            var intent = Intent(this, PrincipalActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

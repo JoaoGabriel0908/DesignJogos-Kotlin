@@ -82,6 +82,7 @@
         app:cardCornerRadius="25dp">
 
         <ImageView
+            android:id="@+id/perfil"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/perfil"/>
@@ -91,15 +92,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/turretroadbold"
         android:text="ViewGame"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/h1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias=".15"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:textColor="@color/white"/>
+        app:layout_constraintVertical_bias=".15" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="40dp"
@@ -114,6 +116,7 @@
         app:cardCornerRadius="25dp">
 
         <ImageButton
+            android:id="@+id/voltar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/voltar"
@@ -131,17 +134,27 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/god_of_war"
-            android:layout_gravity="center"/>
+            android:layout_height="match_parent"
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/god_of_war"
+                android:layout_gravity="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="19dp"
             android:layout_marginBottom="19dp"
+            android:fontFamily="@font/turretroadbold"
             android:lineHeight="23dp"
             android:text="God of war: Ascension"
             android:textColor="@color/white"
@@ -154,6 +167,7 @@
             <TextView
                 android:layout_width="350dp"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
                 android:text="This prequel to the very first
             game in the God of War series and the seventh game in the franchise.
             It is exclusive for the Sony PlayStation 3 console. The game still uses the ancient
@@ -207,9 +221,10 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
             android:backgroundTint="@color/secundaryColor"
-            android:text="Watch"
-            android:layout_marginStart="150dp"/>
+            android:fontFamily="@font/turretroadbold"
+            android:text="Watch" />
 
     </LinearLayout>
 

@@ -14,7 +14,7 @@ class PrincipalActivity : AppCompatActivity() {
 
         var pesquisar = findViewById<ImageView>(R.id.pesquisar)
         pesquisar.setOnClickListener {
-            var intent = Intent (this, activity_games::class.java)
+            var intent = Intent(this, activity_games::class.java)
             startActivity(intent)
         }
     }

@@ -60,34 +60,38 @@
         android:id="@+id/imageView"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        app:layout_constraintBottom_toTopOf="@+id/h1"
-        app:layout_constraintEnd_toStartOf="@+id/v1"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias=".1"
-        app:cardCornerRadius="25dp">
+        app:layout_constraintVertical_bias=".02"
+        app:layout_constraintHorizontal_bias=".05">
 
         <ImageView
+            android:id="@+id/perfil"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/perfil"/>
+            android:src="@drawable/perfil" />
 
     </androidx.cardview.widget.CardView>
 
     <EditText
+        android:background="@drawable/borda"
         android:id="@+id/editText"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:background="@color/primaryColor"
+        android:backgroundTint="@color/primaryColor"
+        android:fontFamily="@font/turretroadbold"
         android:paddingLeft="20dp"
-
         android:text="God of War"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/h1"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias=".1" />
+        app:layout_constraintVertical_bias=".02"
+        android:textFontWeight="800"/>
 
     <ImageView
         android:layout_width="30dp"
@@ -102,14 +106,14 @@
     <ScrollView
         android:id="@+id/scroll"
         android:layout_width="wrap_content"
-        android:layout_height="580dp"
-        android:background="@color/primaryColor"
+        android:layout_height="500dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText"
-        app:layout_constraintVertical_bias=".7">
+        app:layout_constraintVertical_bias=".1"
+        android:layout_marginTop="75dp">
 
         <!--Todo o container-->
         <LinearLayout
@@ -136,9 +140,11 @@
                     <TextView
                         android:layout_width="150dp"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/turretroadbold"
                         android:text="God Of War (2005)"
                         android:textAlignment="center"
                         android:textColor="@color/white"
+                        android:textFontWeight="800"
                         android:textSize="20dp"
                         android:textStyle="bold" />
 
@@ -159,9 +165,11 @@
                         <TextView
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
+                            android:fontFamily="@font/turretroadbold"
                             android:text="God Of War (2005)"
                             android:textAlignment="center"
                             android:textColor="@color/white"
+                            android:textFontWeight="800"
                             android:textSize="20dp"
                             android:textStyle="bold" />
 
@@ -187,9 +195,11 @@
                     <TextView
                         android:layout_width="150dp"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/turretroadbold"
                         android:text="God Of War (2005)"
                         android:textAlignment="center"
                         android:textColor="@color/white"
+                        android:textFontWeight="800"
                         android:textSize="20dp"
                         android:textStyle="bold" />
 
@@ -209,9 +219,11 @@
                         <TextView
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
+                            android:fontFamily="@font/turretroadbold"
                             android:text="God Of War (2005)"
                             android:textAlignment="center"
                             android:textColor="@color/white"
+                            android:textFontWeight="800"
                             android:textSize="20dp"
                             android:textStyle="bold" />
 
@@ -238,9 +250,11 @@
                     <TextView
                         android:layout_width="150dp"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/turretroadbold"
                         android:text="God Of War (2005)"
                         android:textAlignment="center"
                         android:textColor="@color/white"
+                        android:textFontWeight="800"
                         android:textSize="20dp"
                         android:textStyle="bold" />
 
@@ -260,9 +274,11 @@
                         <TextView
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
+                            android:fontFamily="@font/turretroadbold"
                             android:text="God Of War (2005)"
                             android:textAlignment="center"
                             android:textColor="@color/white"
+                            android:textFontWeight="800"
                             android:textSize="20dp"
                             android:textStyle="bold" />
 
@@ -289,9 +305,11 @@
                     <TextView
                         android:layout_width="150dp"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/turretroadbold"
                         android:text="God Of War (2005)"
                         android:textAlignment="center"
                         android:textColor="@color/white"
+                        android:textFontWeight="800"
                         android:textSize="20dp"
                         android:textStyle="bold" />
 
@@ -311,9 +329,11 @@
                         <TextView
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
+                            android:fontFamily="@font/turretroadbold"
                             android:text="God Of War (2005)"
                             android:textAlignment="center"
                             android:textColor="@color/white"
+                            android:textFontWeight="800"
                             android:textSize="20dp"
                             android:textStyle="bold" />
 
