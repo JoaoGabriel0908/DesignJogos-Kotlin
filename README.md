@@ -8,7 +8,7 @@ O ConstraintLayout é uma forma de criar/desenhar layouts complexos sem a necess
 
 ## Figma
 O design foi construído pelo professor Leonid para a realização da atividade
-![imagemFigma](https://user-images.githubusercontent.com/88786336/168147608-6b45afb1-2f39-4b1f-b7d5-95dfd025153b.PNG)
+![imagemFigma](https://www.figma.com/file/Kd3NCtpvK2jcYT5clnrNTx/INDMO---GAMES-(Aula)?node-id=0%3A1)
 
 ## Tecnologias
 * Android Studio
